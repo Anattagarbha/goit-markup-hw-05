@@ -350,6 +350,7 @@ img {
   width: 100%;
   color: var(--mr-white);
   margin-bottom: 0;
+  min-height: 70px;
 }
 
 /* стиль секции team */
