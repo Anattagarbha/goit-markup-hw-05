@@ -336,6 +336,14 @@ img {
   position: relative;
 }
 
+.skill-function {
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
 /* стиль секции team */
 
 .team {
