@@ -151,6 +151,7 @@ img {
   letter-spacing: 0.02em;
   line-height: 1.143;
   text-decoration: none;
+  font-size: 14px;
 }
 
 .nav-link:hover,
@@ -189,6 +190,7 @@ img {
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.143;
+  font-size: 14px;
   display: flex;
   align-items: center;
 }
@@ -288,6 +290,7 @@ img {
 .features-item > .features-text {
   color: var(--small-text);
   line-height: 1.7;
+  font-size: 14px;
 }
 
 .features-list {
@@ -499,6 +502,7 @@ img {
   color: var(--mr-white);
   font-style: normal;
   line-height: 1.7;
+  font-size: 14px;
 }
 
 .address-item > .address-link:hover,
