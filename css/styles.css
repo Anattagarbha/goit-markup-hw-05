@@ -167,6 +167,11 @@ img {
   align-items: center;
 }
 
+.underline {
+  color: var(--brand-color);
+  position: relative;
+}
+
 /* меню контактов */
 
 .contact-item > .contact-link {
