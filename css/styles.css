@@ -342,6 +342,12 @@ img {
   margin-bottom: 10px;
   font-size: 14px;
   font-weight: 700;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 /* стиль секции team */
