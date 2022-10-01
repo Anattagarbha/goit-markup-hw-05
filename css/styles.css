@@ -332,6 +332,10 @@ img {
   gap: 30px;
 }
 
+.skills-item {
+  position: relative;
+}
+
 /* стиль секции team */
 
 .team {
