@@ -624,6 +624,9 @@ img {
   border-style: solid;
   padding: 6px 25px;
   min-height: 38px;
+  transition-property: background-color, border-color, color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-button:hover,
