@@ -105,37 +105,37 @@ img {
 .color-trans {
   transition-property: color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: var(--trans-timing);
 }
 
 .fill-bgn-trans {
   transition-property: background-color, fill;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: var(--trans-timing);
 }
 
 .bgn-trans {
   transition-property: background-color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: var(--trans-timing);
 }
 
 .fill-bdr-trans {
   transition-property: border-color, fill;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: var(--trans-timing);
 }
 
 .bdr-trans {
   transition-property: border-color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: var(--trans-timing);
 }
 
 .shadow-trans {
   transition-property: box-shadow;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: var(--trans-timing);
 }
 
 /* header */
@@ -627,7 +627,7 @@ img {
   min-height: 38px;
   transition-property: background-color, border-color, color, box-shadow;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: var(--trans-timing);
 }
 
 .portfolio-button:hover,
@@ -707,7 +707,7 @@ img {
   background-color: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: var(--trans-timing);
   overflow: auto;
 }
 
