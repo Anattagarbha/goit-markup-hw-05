@@ -691,3 +691,21 @@ img {
   position: relative;
   overflow: hidden;
 }
+
+.project-description {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: calc(100% + 1px);
+  color: var(--mr-white);
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  padding: 63px 24px;
+  background-color: rgba(33, 150, 243, 0.9);
+  transform: translateY(100%);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: auto;
+}
