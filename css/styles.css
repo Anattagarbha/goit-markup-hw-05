@@ -686,3 +686,8 @@ img {
 .project-link:hover {
   box-shadow: 0px 4px 4px var(--project-box-shadow);
 }
+
+.project-wrap {
+  position: relative;
+  overflow: hidden;
+}
