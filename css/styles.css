@@ -23,9 +23,9 @@
   --multi-shadow-a: rgba(0, 0, 0, 0.12);
   --multi-shadow-b: rgba(0, 0, 0, 0.14);
   --multi-shadow-c: rgba(0, 0, 0, 0.2);
-  --port-btn-shadow-1: rgba(0, 0, 0, 0.1);
-  --port-btn-shadow-2: rgba(0, 0, 0, 0.08);
-  --port-btn-shadow-3: rgba(0, 0, 0, 0.12);
+  --multi-shadow-d: rgba(0, 0, 0, 0.1);
+  --multi-shadow-e: rgba(0, 0, 0, 0.08);
+  --multi-shadow-f: rgba(0, 0, 0, 0.12);
   --project-box-shadow: rgba(0, 0, 0, 0.25);
   --font-primary: "Roboto", "Arial", sans-serif;
   --trans-timing: cubic-bezier(0.4, 0, 0.2, 1);
@@ -695,8 +695,8 @@ img {
   background-color: var(--brand-color);
   border-color: var(--brand-color);
   color: var(--mr-white);
-  box-shadow: 0px 3px 1px var(--port-btn-shadow-1),
-    0px 1px 2px var(--port-btn-shadow-2), 0px 2px 2px var(--port-btn-shadow-3);
+  box-shadow: 0px 3px 1px var(--multi-shadow-d),
+    0px 1px 2px var(--multi-shadow-e), 0px 2px 2px var(--multi-shadow-f);
 }
 
 .portfolio-filter {
