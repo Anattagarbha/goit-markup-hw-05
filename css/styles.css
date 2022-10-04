@@ -307,6 +307,19 @@ img {
     url("../images/decor/hero.jpg");
 }
 
+/* modal window */
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: opacity 250ms var(--trans-timing),
+    visibility 250ms var(--trans-timing);
+}
+
 /* стиль секции features */
 
 .features.section {
