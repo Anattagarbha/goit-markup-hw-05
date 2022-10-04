@@ -341,6 +341,10 @@ img {
     0px 1px 1px var(--member-shadow-2), 0px 2px 1px var(--member-shadow-3);
 }
 
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) rotateY(90deg);
+}
+
 /* стиль секции features */
 
 .features.section {
