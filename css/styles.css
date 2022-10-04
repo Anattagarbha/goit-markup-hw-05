@@ -345,6 +345,22 @@ img {
   transform: translate(-50%, -50%) rotateY(90deg);
 }
 
+.modal-close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  height: 30px;
+  width: 30px;
+  background-color: var(--mr-white);
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: fill 250ms var(--trans-timing);
+}
+
 /* стиль секции features */
 
 .features.section {
