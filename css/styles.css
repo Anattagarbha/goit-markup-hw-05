@@ -20,9 +20,9 @@
   --mr-white: #ffffff;
   --address-color: rgba(255, 255, 255, 0.6);
   --hero-btn-shadow: rgba(0, 0, 0, 0.15);
-  --member-shadow-1: rgba(0, 0, 0, 0.12);
-  --member-shadow-2: rgba(0, 0, 0, 0.14);
-  --member-shadow-3: rgba(0, 0, 0, 0.2);
+  --multi-shadow-a: rgba(0, 0, 0, 0.12);
+  --multi-shadow-b: rgba(0, 0, 0, 0.14);
+  --multi-shadow-c: rgba(0, 0, 0, 0.2);
   --port-btn-shadow-1: rgba(0, 0, 0, 0.1);
   --port-btn-shadow-2: rgba(0, 0, 0, 0.08);
   --port-btn-shadow-3: rgba(0, 0, 0, 0.12);
@@ -337,8 +337,8 @@ img {
   padding: 40px;
   transform: translate(-50%, -50%) rotateY(0deg);
   transition: transform 250ms var(--trans-timing);
-  box-shadow: 0px 1px 3px var(--member-shadow-1),
-    0px 1px 1px var(--member-shadow-2), 0px 2px 1px var(--member-shadow-3);
+  box-shadow: 0px 1px 3px var(--multi-shadow-a),
+    0px 1px 1px var(--multi-shadow-b), 0px 2px 1px var(--multi-shadow-c);
 }
 
 .backdrop.is-hidden .modal {
@@ -475,8 +475,8 @@ img {
 }
 
 .team-member {
-  box-shadow: 0px 1px 3px var(--member-shadow-1),
-    0px 1px 1px var(--member-shadow-2), 0px 2px 1px var(--member-shadow-3);
+  box-shadow: 0px 1px 3px var(--multi-shadow-a),
+    0px 1px 1px var(--multi-shadow-b), 0px 2px 1px var(--multi-shadow-c);
   background-color: var(--mr-white);
   max-width: 270px;
   border-bottom-left-radius: 4px;
