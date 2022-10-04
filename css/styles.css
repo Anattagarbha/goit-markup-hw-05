@@ -361,6 +361,10 @@ img {
   transition: fill 250ms var(--trans-timing);
 }
 
+.modal-close-btn:hover {
+  fill: var(--brand-color);
+}
+
 /* стиль секции features */
 
 .features.section {
